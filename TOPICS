@@ -1,0 +1,142 @@
+
+ Book 1: Absolute Basics (From 0 Knowledge)
+
+1. What Is PowerShell?
+	•	Shell vs GUI
+	•	Cmdlets, objects, and why it's not just another terminal
+
+2. Getting Started
+	•	Opening PowerShell
+	•	PowerShell vs Windows PowerShell vs PowerShell Core (⭐)
+	•	Updating and versions (`$PSVersionTable`)
+3. Using the Help System
+	•	`Get-Help`, `Update-Help`
+	•	How to learn new commands (`Get-Command`, `Get-Member`)
+
+4. Navigating the Filesystem
+	•	`Get-Location`, `Set-Location`, `Push-Location`, `Pop-Location` (⭐)
+	•	`Get-ChildItem`, `New-Item`, `Remove-Item`, `Move-Item`
+
+5. Reading & Writing to Files
+	•	`Get-Content`, `Set-Content`, `Add-Content`
+	•	Basic file input/output scripting
+
+6. User Input & Output
+	•	`Read-Host`, `Write-Output`, `Write-Host`
+
+----------------------------------------------------------------------------
+
+ Book 2: Core Scripting Concepts
+
+1. Variables & Data Types
+	•	Strings, integers, arrays, booleans, hashtables (⭐)
+
+2. Operators
+	•	Arithmetic (`+`, `-`, etc.)
+	•	Comparison (`-eq`, `-ne`, etc.)
+	•	Logical (`-and`, `-or`, `-not`)
+	•	Type-checking (`-is`, `-as`) ⭐
+
+3. Conditional Logic
+	•	`if`, `elseif`, `else`
+	•	`switch`
+
+4. Loops & Iteration
+	•	`for`, `foreach`, `while`, `do-while`
+	•	Breaking and continuing (`break`, `continue`)
+
+5. Functions
+	•	Creating functions
+	•	Parameters (with validation attributes ⭐)
+	•	Returning values
+
+6. Pipelines & Filtering
+	•	Sending data with `|`
+	•	`Where-Object`, `Select-Object`, `Sort-Object`, `Measure-Object` (⭐)
+
+----------------------------------------------------------------------------
+
+ Book 3: Intermediate Scripting & Modules
+
+1. Error Handling
+	•	`try`, `catch`, `finally`
+	•	`$ErrorActionPreference`, `-ErrorAction`, `-ErrorVariable`
+
+2. Advanced Objects
+	•	Creating `[PSCustomObject]`
+	•	Working with hashtables and nested data
+	•	Object properties and methods
+
+3. Working with Dates & Times ⭐
+	•	`Get-Date`, date math, formatting
+
+4. Working with Arrays & Loops Together ⭐
+	•	Filtering, mapping, reducing
+
+5. Creating and Using Modules
+	•	`Import-Module`, `Export-ModuleMember`
+	•	Manifest files (`.psd1`) basics
+
+6. Background Jobs & Remoting
+	•	`Start-Job`, `Receive-Job`
+	•	`Invoke-Command`, `Enter-PSSession`
+
+7. Scheduled Tasks & Task Scheduler
+	•	Creating automated tasks from scripts
+	•	Logging task output
+
+----------------------------------------------------------------------------
+
+ Book 4: Advanced & Real-World Projects
+
+1. Using APIs & Web Requests
+	•	`Invoke-WebRequest`, `Invoke-RestMethod`
+	•	Parsing JSON and XML
+	•	Authentication headers ⭐
+
+2. Desired State Configuration (DSC)
+	•	DSC basics
+	•	Writing a simple configuration
+
+3. Security in PowerShell
+	•	Execution policies
+	•	Script signing
+	•	Securely storing and retrieving credentials
+
+4. PowerShell & .NET Integration
+	•	Using .NET classes
+	•	Calling .NET methods (e.g., `[System.IO.File]::WriteAllText()`)
+
+5. Writing Unit Tests with Pester
+	•	Writing test scripts
+	•	Test-driven development with PowerShell
+
+6. Creating GUIs (Optional)
+	•	WinForms or WPF basics
+	•	Simple input and message box examples
+
+7. Git & GitHub Integration
+	•	Basic Git workflow
+	•	Publishing scripts and modules
+	•	GitHub Actions for PowerShell (⭐)
+
+8. Performance Tuning & Logging
+	•	`Measure-Command`, `$PROFILE`, transcript logs
+	•	Logging with timestamps
+
+----------------------------------------------------------------------------
+
+Bonus Book: Tools, Tips & Daily Use
+
+1. Profiles & Customization
+	•	`$PROFILE` scripts
+	•	Aliases, functions, auto-loaders
+
+2. Command-line Tricks
+	•	History, tab completion, `Out-GridView`, `tee`, etc.
+
+3. Common PowerShell Gotchas & Fixes
+	•	Quoting problems, pipeline issues, scope confusion
+
+4. Learning Resources
+	•	Where to go next (blogs, videos, docs)
