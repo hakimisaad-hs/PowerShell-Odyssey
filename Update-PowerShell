@@ -1,0 +1,23 @@
+Update PowerShell —
+Before diving into scripting or automation, it's essential to update PowerShell to the latest stable version. 
+Newer versions bring better performance, more features, improved security, 
+and compatibility with modern scripts and modules.
+
+This guide walks through the simplest, most reliable way to upgrade using winget (recommended by Microsoft).
+
+Why Update First?
+  •	Older versions (like Windows PowerShell 5.1) are outdated and limited
+  •	Many tutorials and modules require PowerShell 7+
+  •	PowerShell 7.x is cross-platform, faster, and more powerful
+
+Quick Install Command (Recommended)
+If winget is available on your system,just copy and run this on PowerShell:
+  
+  winget install --id Microsoft.Powershell --source winget
+  
+This installs the latest PowerShell 7.x stable release side-by-side with Windows PowerShell.
+
+After Installing
+Open the new PowerShell 7+ terminal and check the version:
+  
+  $PSVersionTable
